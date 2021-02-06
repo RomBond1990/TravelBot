@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table
@@ -15,4 +16,5 @@ public class Country {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String countryName;
+    private List<Region> regions;
 }

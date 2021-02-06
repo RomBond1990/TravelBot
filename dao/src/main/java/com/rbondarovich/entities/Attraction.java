@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table
@@ -16,4 +17,5 @@ public class Attraction {
     private Long id;
     private String name;
     private String text;
+    private List<Address> addresses;
 }
