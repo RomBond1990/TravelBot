@@ -12,4 +12,12 @@
     <artifactId>service</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.rbondarovich</groupId>
+            <artifactId>dao</artifactId>
+            <version>${app.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>
