@@ -18,8 +18,8 @@ public class AttractionServiceImpl implements AttractionService {
     
     @Override
     public Iterable<AttractionBean> getAllAttractions() {
-        List<Attraction> attractiones = attractionRepo.findAll();
-        List<AttractionBean> attractionBeans = converter.convertToBeanList(attractiones, AttractionBean.class);
+        List<Attraction> attractions = attractionRepo.findAll();
+        List<AttractionBean> attractionBeans = converter.convertToBeanList(attractions, AttractionBean.class);
         return attractionBeans;
     }
 
