@@ -1,9 +1,9 @@
 package com.rbondarovich.impl;
 
 import com.rbondarovich.beans.AttractionBean;
-import com.rbondarovich.entities.Attraction;
+import com.rbondarovich.entity.Attraction;
 import com.rbondarovich.interfaces.AttractionService;
-import com.rbondarovich.repositories.AttractionRepository;
+import com.rbondarovich.repository.AttractionRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

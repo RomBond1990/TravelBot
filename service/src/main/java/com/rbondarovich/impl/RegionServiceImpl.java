@@ -1,9 +1,9 @@
 package com.rbondarovich.impl;
 
 import com.rbondarovich.beans.RegionBean;
-import com.rbondarovich.entities.Region;
+import com.rbondarovich.entity.Region;
 import com.rbondarovich.interfaces.RegionService;
-import com.rbondarovich.repositories.RegionRepositories;
+import com.rbondarovich.repository.RegionRepositories;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

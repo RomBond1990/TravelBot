@@ -1,6 +1,6 @@
-package com.rbondarovich.repositories;
+package com.rbondarovich.repository;
 
-import com.rbondarovich.entities.Country;
+import com.rbondarovich.entity.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CountryRepositories extends JpaRepository<Country, Long> {

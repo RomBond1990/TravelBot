@@ -2,9 +2,9 @@ package com.rbondarovich.impl;
 
 
 import com.rbondarovich.beans.AddressBean;
-import com.rbondarovich.entities.Address;
+import com.rbondarovich.entity.Address;
 import com.rbondarovich.interfaces.AddressService;
-import com.rbondarovich.repositories.AddressRepository;
+import com.rbondarovich.repository.AddressRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

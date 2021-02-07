@@ -1,9 +1,9 @@
 package com.rbondarovich.impl;
 
 import com.rbondarovich.beans.CityBean;
-import com.rbondarovich.entities.City;
+import com.rbondarovich.entity.City;
 import com.rbondarovich.interfaces.CityService;
-import com.rbondarovich.repositories.CityRepositories;
+import com.rbondarovich.repository.CityRepositories;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

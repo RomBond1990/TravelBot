@@ -1,6 +1,6 @@
-package com.rbondarovich.repositories;
+package com.rbondarovich.repository;
 
-import com.rbondarovich.entities.Address;
+import com.rbondarovich.entity.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AddressRepository extends JpaRepository<Address, Long> {

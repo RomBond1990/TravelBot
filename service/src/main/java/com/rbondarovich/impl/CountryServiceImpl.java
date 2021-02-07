@@ -1,10 +1,9 @@
 package com.rbondarovich.impl;
 
 import com.rbondarovich.beans.CountryBean;
-import com.rbondarovich.entities.Country;
+import com.rbondarovich.entity.Country;
 import com.rbondarovich.interfaces.CountryService;
-import com.rbondarovich.interfaces.CountryService;
-import com.rbondarovich.repositories.CountryRepositories;
+import com.rbondarovich.repository.CountryRepositories;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.rbondarovich.entities;
+package com.rbondarovich.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,5 +16,5 @@ public class Country {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String countryName;
-    private List<Region> regions;
+
 }
