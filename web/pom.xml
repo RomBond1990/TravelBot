@@ -18,6 +18,11 @@
             <artifactId>service</artifactId>
             <version>${app.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.rbondarovich</groupId>
+            <artifactId>telegramBot</artifactId>
+            <version>${app.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

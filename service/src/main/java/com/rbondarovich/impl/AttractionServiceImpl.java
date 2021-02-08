@@ -4,12 +4,15 @@ import com.rbondarovich.beans.AttractionBean;
 import com.rbondarovich.entity.Attraction;
 import com.rbondarovich.interfaces.AttractionService;
 import com.rbondarovich.repository.AttractionRepository;
+import com.rbondarovich.repository.CityRepositories;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 @Service
+@Transactional
 @RequiredArgsConstructor
 public class AttractionServiceImpl implements AttractionService {
     
@@ -20,6 +23,13 @@ public class AttractionServiceImpl implements AttractionService {
     public Iterable<AttractionBean> getAllAttractions() {
         List<Attraction> attractions = attractionRepo.findAll();
         List<AttractionBean> attractionBeans = converter.convertToBeanList(attractions, AttractionBean.class);
+        return attractionBeans;
+    }
+
+    public Iterable<AttractionBean> getAllAttractionsByCityName (String city) {
+        List<Attraction> attractions = attractionRepo.findByCity_NameLikeIgnoreCase(city);
+        List<AttractionBean> attractionBeans = converter.convertToBeanList(attractions, AttractionBean.class);
+
         return attractionBeans;
     }
 

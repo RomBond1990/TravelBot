@@ -6,6 +6,8 @@ public interface AttractionService {
 
     Iterable<AttractionBean> getAllAttractions();
 
+    Iterable<AttractionBean> getAllAttractionsByCityName (String city);
+
     AttractionBean getAttractionById(Long attractionId);
 
     void saveAttraction (AttractionBean attraction);
