@@ -16,10 +16,10 @@ public class City {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String cityName;
+    private String name;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "fk_region_id")
-    private Region region;
+    @JoinColumn(name = "fk_country_id")
+    private Country country;
 
 }

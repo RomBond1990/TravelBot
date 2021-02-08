@@ -9,6 +9,6 @@ public class CityBean {
 
     private Long id;
     private String cityName;
-    private RegionBean region;
+    private CountryBean country;
     private List<AttractionBean> attractions;
 }

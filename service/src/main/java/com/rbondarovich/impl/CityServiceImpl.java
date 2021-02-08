@@ -19,6 +19,7 @@ public class CityServiceImpl implements CityService {
 
     @Override
     public Iterable<CityBean> getAllCities() {
+
         List<City> cities = cityRepo.findAll();
         List<CityBean> cityBeans = converter.convertToBeanList(cities, CityBean.class);
         return cityBeans;

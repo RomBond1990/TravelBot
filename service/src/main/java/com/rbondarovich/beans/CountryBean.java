@@ -9,5 +9,5 @@ public class CountryBean {
 
     private Long id;
     private String countryName;
-    private List<RegionBean> regions;
+    private List<CityBean> cities;
 }
