@@ -6,6 +6,7 @@
         <module>dao</module>
         <module>web</module>
         <module>service</module>
+        <module>telegramBot</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -23,9 +24,21 @@
     <properties>
         <java.version>11</java.version>
         <app.version>0.0.1-SNAPSHOT</app.version>
+        <telegram.version>5.0.1</telegram.version>
+        <modelmapper.version>2.3.8</modelmapper.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.telegram</groupId>
+            <artifactId>telegrambots-spring-boot-starter</artifactId>
+            <version>${telegram.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.telegram</groupId>
+            <artifactId>telegrambotsextensions</artifactId>
+            <version>${telegram.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -39,7 +52,7 @@
         <dependency>
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
-            <version>2.3.8</version>
+            <version>${modelmapper.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
