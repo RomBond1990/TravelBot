@@ -8,6 +8,6 @@ import java.util.List;
 public class CountryBean {
 
     private Long id;
-    private String countryName;
+    private String name;
     private List<CityBean> cities;
 }

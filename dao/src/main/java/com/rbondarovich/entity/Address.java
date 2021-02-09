@@ -20,7 +20,7 @@ public class Address {
     private Double longitude;
     private Double latitude;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @OneToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "fk_attraction_id")
     private Attraction attraction;
 }

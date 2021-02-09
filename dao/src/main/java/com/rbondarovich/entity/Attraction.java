@@ -17,7 +17,7 @@ public class Attraction {
     private String name;
     private String text;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "fk_city_id")
     private City city;
 }

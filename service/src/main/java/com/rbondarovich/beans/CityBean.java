@@ -8,7 +8,7 @@ import java.util.List;
 public class CityBean {
 
     private Long id;
-    private String cityName;
+    private String name;
     private CountryBean country;
     private List<AttractionBean> attractions;
 }
