@@ -16,9 +16,7 @@ Telegram Bot for travel
 Для этого в браузере пройти по адресу
  
 1. [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
-2. В строку JDBC URL написать jdbc:h2:mem:travel_bot 
-![./H2 enter.png](./H2 enter.png)
-
+2. В строке JDBC URL написать jdbc:h2:mem:travel_bot 
 3. В открывшемся окне используйте поле для команд
 
 <i>имя бота: @for_test_travel_bot <br/></i>
