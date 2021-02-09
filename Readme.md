@@ -1,6 +1,8 @@
 #Travel Bot
 Telegram Bot for travel
 
+####Бота можно найти в Telegram по имени @for_test_travel_bot
+
 
 Для удобного запуска приложения используется H2 база данных. 
 Скрипт создания бд располагается по адресу [./web/src/main/resources/data.sql](./web/src/main/resources/data.sql).
@@ -18,3 +20,6 @@ Telegram Bot for travel
 ![./H2 enter.png](./H2 enter.png)
 
 3. В открывшемся окне используйте поле для команд
+
+<i>имя бота: @for_test_travel_bot <br/></i>
+<i>токен бота: 1508517017:AAF0LZKzyjLh8FPi9P44qd9cawJoxMMaR6c</i>
