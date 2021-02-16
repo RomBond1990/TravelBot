@@ -22,6 +22,9 @@ public class NonCommand {
         List<AttractionBean> allAttractions = (ArrayList<AttractionBean>) attractionService.getAllAttractionsByCityName(text);
         if (!allAttractions.isEmpty()) {
             for (AttractionBean bean : allAttractions) {
+                String city = bean.getCity().getName();
+                String country = bean.getCity().getCountry().getName();
+                answer.append(city).append("(").append(country).append(")\n");
                 answer.append(bean.getName()).append("\n").append(bean.getText()).append("\n\n");
             }
         } else {
