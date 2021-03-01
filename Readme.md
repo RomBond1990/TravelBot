@@ -1,7 +1,7 @@
 #Travel Bot
 Telegram Bot for travel
 
-####Бота можно найти в Telegram по имени @for_test_travel_bot
+####Бота можно найти в Telegram по имени @QuizBRBot (@for_test_travel_bot - сломался)
 
 
 Для удобного запуска приложения используется H2 база данных. 
