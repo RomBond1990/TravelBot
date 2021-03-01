@@ -1,7 +1,7 @@
 #Travel Bot
 Telegram Bot for travel
 
-####Бота можно найти в Telegram по имени @QuizBRBot (@for_test_travel_bot - сломался)
+####Бота можно найти в Telegram по имени @for_test_travel_bot
 
 
 Для удобного запуска приложения используется H2 база данных. 
@@ -19,5 +19,5 @@ Telegram Bot for travel
 2. В строку JDBC URL написать jdbc:h2:mem:travel_bot
 3. В открывшемся окне используйте поле для команд
 
-<i>имя бота: @QuizBRBot  <br/></i>
+<i>имя бота: @for_test_travel_bot  <br/></i>
 
